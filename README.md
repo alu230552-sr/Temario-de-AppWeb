@@ -4,33 +4,33 @@
 Historia y evolución del desarrollo web:  
 El desarrollo web comenzó en la década de 1990 con la invención de la World Wide Web. Inicialmente, las páginas web eran simples documentos de texto con enlaces (HTML). Con el tiempo, evolucionaron incorporando imágenes, estilos (CSS), interactividad (JavaScript) y bases de datos. Actualmente, existen aplicaciones web complejas y dinámicas, como redes sociales, tiendas online y aplicaciones que funcionan casi como programas de escritorio.
 
-Tipos de aplicaciones web:  
+## Tipos de aplicaciones web:  
 
 Estáticas: Son páginas cuyo contenido no cambia; cada usuario ve lo mismo. Se componen principalmente de archivos HTML y CSS.  
 Dinámicas: El contenido puede variar según el usuario o acciones realizadas. Usan lenguajes de servidor como PHP, bases de datos, etc.  
 SPA (Single Page Application): Aplicación de una sola página que carga una vez y después gestiona la navegación y los cambios de contenido dinámicamente sin recargar toda la página (ejemplo: Gmail).  
 PWA (Progressive Web App): Aplicaciones web que utilizan tecnologías avanzadas para comportarse como aplicaciones móviles nativas, permitiendo funcionar offline y ser instalables en dispositivos.  
-2. Arquitectura de aplicaciones web
+## 2. Arquitectura de aplicaciones web
 Cliente-Servidor:
 Modelo donde el "cliente" (generalmente el navegador del usuario) solicita información o servicios al "servidor" (donde reside la aplicación y la base de datos). El servidor responde enviando los datos o la página solicitada.
 
 Arquitectura de tres capas:
 Separación de la aplicación en tres partes:
 
-Presentación: Interfaz que ve el usuario (HTML, CSS, JS).
+## Presentación: Interfaz que ve el usuario (HTML, CSS, JS).
 Lógica: Procesamiento de datos y reglas de negocio (PHP, Node.js, etc.).
 Datos: Almacenamiento y manejo de datos (bases de datos como MySQL).
 REST y API-first design:
 
-REST: Estilo de arquitectura para crear APIs que permiten la comunicación entre sistemas usando HTTP. Es sencillo, escalable y usa operaciones como GET, POST, PUT, DELETE.
+## REST: Estilo de arquitectura para crear APIs que permiten la comunicación entre sistemas usando HTTP. Es sencillo, escalable y usa operaciones como GET, POST, PUT, DELETE.
 API-first design: Enfoque donde primero se diseña la API (cómo los sistemas se comunicarán) antes de implementar la aplicación, garantizando que sea reutilizable y fácil de mantener.
-3. Lenguajes y tecnologías fundamentales
-HTML (HyperText Markup Language): Lenguaje estándar para crear la estructura y contenido de las páginas web.
-CSS (Cascading Style Sheets): Lenguaje para definir el aspecto visual y el diseño de las páginas web.
-JavaScript: Lenguaje de programación que permite agregar interactividad y dinamismo a las páginas web.
-PHP: Lenguaje de programación del lado del servidor, muy usado para crear páginas web dinámicas.
-MySQL: Sistema de gestión de bases de datos relacional, usado para almacenar y gestionar información en aplicaciones web.
-4. Control de versiones
+## 3. Lenguajes y tecnologías fundamentales
+HTML (HyperText Markup Language): Lenguaje estándar para crear la estructura y contenido de las páginas web.  
+CSS (Cascading Style Sheets): Lenguaje para definir el aspecto visual y el diseño de las páginas web.  
+JavaScript: Lenguaje de programación que permite agregar interactividad y dinamismo a las páginas web.  
+PHP: Lenguaje de programación del lado del servidor, muy usado para crear páginas web dinámicas.  
+MySQL: Sistema de gestión de bases de datos relacional, usado para almacenar y gestionar información en aplicaciones web.  
+## 4. Control de versiones
 Git y GitHub:
 
 Git: Sistema de control de versiones que permite registrar todos los cambios realizados en el código, facilitando el trabajo en equipo y el seguimiento de la evolución del proyecto.
@@ -44,7 +44,7 @@ Pull requests: Solicitud para que otros revisen y aprueben los cambios antes de 
 
 
 # Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
-1. Diseño e implementación del frontend
+## 1. Diseño e implementación del frontend
 Maquetación/Wireframe/Mockup
 
 Maquetación: Proceso de organizar y estructurar los elementos visuales de una página web (textos, imágenes, botones) usando HTML y CSS.
@@ -53,7 +53,7 @@ Mockup: Versión más detallada y visual del wireframe, mostrando colores, tipog
 API (Interfaz de Programación de Aplicaciones)
 
 Conjunto de reglas y definiciones que permiten que dos aplicaciones se comuniquen entre sí, generalmente a través de peticiones HTTP (como REST o GraphQL).
-2. Diseño e implementación del backend
+## 2. Diseño e implementación del backend
 Servidor
 
 Programa o máquina que recibe peticiones de los clientes y envía las respuestas correspondientes (por ejemplo, un servidor Node.js, Django, o Express).
@@ -63,7 +63,7 @@ Proceso donde el servidor recibe solicitudes (GET, POST, PUT, DELETE) y responde
 Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
 
 Los servidores suelen conectarse a una base de datos para guardar o recuperar información necesaria para la aplicación.
-3. Bases de datos
+## 3. Bases de datos
 Modelado de datos y relaciones
 
 Diseño de la estructura de datos y cómo se relacionan entre sí (tablas, llaves foráneas, colecciones, etc.).
@@ -78,7 +78,7 @@ Read (Leer)
 Update (Actualizar)
 Delete (Eliminar)
 Estas operaciones suelen estar disponibles a través de rutas o endpoints en el backend.
-4. Seguridad básica en aplicaciones web
+## 4. Seguridad básica en aplicaciones web
 Validación de formularios
 
 Proceso de revisar que los datos introducidos por el usuario cumplen ciertos requisitos antes de ser procesados o guardados.
@@ -90,10 +90,7 @@ Autorización: Controlar qué acciones puede realizar un usuario según su rol o
 
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
-Copilot said: ¡Por supuesto! Aquí tienes una investigación clara
-¡Por supuesto! Aquí tienes una investigación clara y concisa sobre los conceptos que mencionas, agrupados por tema:
-
-1. Integración de frontend y backend
+## 1. Integración de frontend y backend
 Interfaz de usuario Frontend
 El frontend es la parte de una aplicación web con la que interactúa el usuario directamente. Se desarrolla usando tecnologías como HTML, CSS y JavaScript (y frameworks como React, Angular o Vue). El objetivo es crear interfaces atractivas, responsivas y fáciles de usar, gestionando eventos, validaciones y la experiencia visual general.
 
@@ -103,7 +100,7 @@ El frontend se comunica con el backend a través de APIs (Application Programmin
 Proceso de Solicitud y Respuesta de Backend
 Cuando el frontend realiza una solicitud (por ejemplo, para obtener datos de usuario), el backend la recibe, procesa la lógica necesaria (consultar una base de datos, aplicar reglas de negocio, etc.) y devuelve una respuesta (generalmente en formato JSON). Este ciclo de solicitud/respuesta es la base de la comunicación entre cliente y servidor.
 
-2. Almacenamiento en Servidor
+## 2. Almacenamiento en Servidor
 Tipos de servidores
 Servidor físico (bare-metal): Hardware dedicado exclusivamente a un cliente.
 Servidor virtual (VPS): Un entorno virtualizado dentro de un servidor físico, permite mayor flexibilidad y escalabilidad.
@@ -118,7 +115,7 @@ Amazon Web Services (AWS): S3 para almacenamiento de archivos, EC2 para servidor
 Google Cloud Platform (GCP): Cloud Storage, Compute Engine.
 Microsoft Azure: Blob Storage, Virtual Machines.
 Otros: DigitalOcean, Linode, Hetzner, Firebase (para almacenamiento y backend).
-3. Optimización y rendimiento
+## 3. Optimización y rendimiento
 Optimización de recursos (imágenes, scripts)
 Compresión de imágenes: Reducir el tamaño de imágenes sin perder calidad perceptible (usando formatos como WebP).
 Minificación: Eliminar espacios y comentarios de archivos JS/CSS.
