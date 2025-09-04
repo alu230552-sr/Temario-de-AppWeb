@@ -1,15 +1,15 @@
 # Temario-de-AppWeb
 # Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web.   
-1. Introducción al desarrollo web 
-Historia y evolución del desarrollo web:
+## 1. Introducción al desarrollo web 
+Historia y evolución del desarrollo web:  
 El desarrollo web comenzó en la década de 1990 con la invención de la World Wide Web. Inicialmente, las páginas web eran simples documentos de texto con enlaces (HTML). Con el tiempo, evolucionaron incorporando imágenes, estilos (CSS), interactividad (JavaScript) y bases de datos. Actualmente, existen aplicaciones web complejas y dinámicas, como redes sociales, tiendas online y aplicaciones que funcionan casi como programas de escritorio.
 
-Tipos de aplicaciones web:
+Tipos de aplicaciones web:  
 
-Estáticas: Son páginas cuyo contenido no cambia; cada usuario ve lo mismo. Se componen principalmente de archivos HTML y CSS.
-Dinámicas: El contenido puede variar según el usuario o acciones realizadas. Usan lenguajes de servidor como PHP, bases de datos, etc.
-SPA (Single Page Application): Aplicación de una sola página que carga una vez y después gestiona la navegación y los cambios de contenido dinámicamente sin recargar toda la página (ejemplo: Gmail).
-PWA (Progressive Web App): Aplicaciones web que utilizan tecnologías avanzadas para comportarse como aplicaciones móviles nativas, permitiendo funcionar offline y ser instalables en dispositivos.
+Estáticas: Son páginas cuyo contenido no cambia; cada usuario ve lo mismo. Se componen principalmente de archivos HTML y CSS.  
+Dinámicas: El contenido puede variar según el usuario o acciones realizadas. Usan lenguajes de servidor como PHP, bases de datos, etc.  
+SPA (Single Page Application): Aplicación de una sola página que carga una vez y después gestiona la navegación y los cambios de contenido dinámicamente sin recargar toda la página (ejemplo: Gmail).  
+PWA (Progressive Web App): Aplicaciones web que utilizan tecnologías avanzadas para comportarse como aplicaciones móviles nativas, permitiendo funcionar offline y ser instalables en dispositivos.  
 2. Arquitectura de aplicaciones web
 Cliente-Servidor:
 Modelo donde el "cliente" (generalmente el navegador del usuario) solicita información o servicios al "servidor" (donde reside la aplicación y la base de datos). El servidor responde enviando los datos o la página solicitada.
