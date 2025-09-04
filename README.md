@@ -85,19 +85,47 @@ Autenticación y autorización
 Autenticación: Verificar la identidad de un usuario (por ejemplo, mediante usuario y contraseña).
 Autorización: Controlar qué acciones puede realizar un usuario según su rol o permisos. 
 
-Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
-1. -Integración de frontend y backend  
-Interfaz de usuario Frontend  
-Manejo de API  
-Proceso de Solicitud y Respuesta de Backend  
+# Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
+Copilot said: ¡Por supuesto! Aquí tienes una investigación clara
+¡Por supuesto! Aquí tienes una investigación clara y concisa sobre los conceptos que mencionas, agrupados por tema:
 
-2.- Almacenamiento en Servidor  
-Tipos de servidores   
-Servidores y servicios de hosting   
-Proveedores de Servicios de Almacenamiento  
+1. Integración de frontend y backend
+Interfaz de usuario Frontend
+El frontend es la parte de una aplicación web con la que interactúa el usuario directamente. Se desarrolla usando tecnologías como HTML, CSS y JavaScript (y frameworks como React, Angular o Vue). El objetivo es crear interfaces atractivas, responsivas y fáciles de usar, gestionando eventos, validaciones y la experiencia visual general.
 
-3.-Optimización y rendimiento  
-Optimización de recursos (imágenes, scripts)  
-Despliegue de aplicaciones web  
-CI/CD básico  
-Documentación del proyecto  
+Manejo de API
+El frontend se comunica con el backend a través de APIs (Application Programming Interfaces). Por lo general, se utilizan APIs REST o GraphQL, que permiten al frontend enviar solicitudes HTTP (GET, POST, PUT, DELETE) para crear, leer, actualizar o eliminar datos en el servidor. El manejo de API implica consumir estos endpoints usando fetch, Axios, o librerías similares, gestionando respuestas y errores.
+
+Proceso de Solicitud y Respuesta de Backend
+Cuando el frontend realiza una solicitud (por ejemplo, para obtener datos de usuario), el backend la recibe, procesa la lógica necesaria (consultar una base de datos, aplicar reglas de negocio, etc.) y devuelve una respuesta (generalmente en formato JSON). Este ciclo de solicitud/respuesta es la base de la comunicación entre cliente y servidor.
+
+2. Almacenamiento en Servidor
+Tipos de servidores
+Servidor físico (bare-metal): Hardware dedicado exclusivamente a un cliente.
+Servidor virtual (VPS): Un entorno virtualizado dentro de un servidor físico, permite mayor flexibilidad y escalabilidad.
+Servidores cloud: Recursos virtualizados en la nube, escalables bajo demanda (Amazon AWS, Google Cloud, Azure).
+Servidores y servicios de hosting
+Hosting compartido: Recursos compartidos entre varios usuarios, económico pero menos potente.
+Hosting dedicado: Un servidor completo para un solo usuario, más caro y potente.
+Hosting en la nube: Escalabilidad y pago por uso, ideal para aplicaciones que pueden crecer.
+PaaS (Platform as a Service): Servicios que gestionan infraestructura y permiten centrarse en el desarrollo (Heroku, Vercel, Netlify).
+Proveedores de Servicios de Almacenamiento
+Amazon Web Services (AWS): S3 para almacenamiento de archivos, EC2 para servidores.
+Google Cloud Platform (GCP): Cloud Storage, Compute Engine.
+Microsoft Azure: Blob Storage, Virtual Machines.
+Otros: DigitalOcean, Linode, Hetzner, Firebase (para almacenamiento y backend).
+3. Optimización y rendimiento
+Optimización de recursos (imágenes, scripts)
+Compresión de imágenes: Reducir el tamaño de imágenes sin perder calidad perceptible (usando formatos como WebP).
+Minificación: Eliminar espacios y comentarios de archivos JS/CSS.
+Carga diferida (Lazy Loading): Cargar imágenes o scripts sólo cuando el usuario los necesita.
+Uso de CDN: Distribuir recursos estáticos en servidores globales para reducir latencia.
+Despliegue de aplicaciones web
+El despliegue es el proceso de poner la aplicación en un servidor accesible por los usuarios. Puede hacerse manualmente (subiendo archivos por FTP/SFTP) o automáticamente usando herramientas de integración continua/despliegue continuo (CI/CD). Se deben tener en cuenta aspectos como la configuración del entorno, variables de entorno, y seguridad.
+
+CI/CD básico
+CI/CD (Integración Continua y Entrega/Despliegue Continuo) automatiza pruebas, construcción y despliegue de aplicaciones. Herramientas comunes: GitHub Actions, GitLab CI, Jenkins. Permite detectar errores antes, acelerar el release y mantener calidad.
+
+Documentación del proyecto
+La documentación describe cómo funciona la aplicación, cómo instalarla, configurarla, usarla y contribuir. Incluye el README.md, documentación de la API, diagramas de arquitectura y guías para desarrolladores y usuarios.
+
