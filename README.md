@@ -39,7 +39,9 @@ Flujo de trabajo con ramas:
 
 Branching: Crear una rama (branch) para trabajar en una nueva funcionalidad o corrección sin afectar el código principal.
 Merge: Unir los cambios de una rama al código principal, integrando las nuevas funcionalidades o correcciones.
-Pull requests: Solicitud para que otros revisen y aprueben los cambios antes de integrarlos al proyecto principal, facilitando la colaboración y revisión de código. 
+Pull requests: Solicitud para que otros revisen y aprueben los cambios antes de integrarlos al proyecto principal, facilitando la colaboración y revisión de código.
+<img width="477" height="281" alt="image" src="https://github.com/user-attachments/assets/081a8ff6-29d1-46a0-bf3a-b6d4e02fce91" />
+
 
 # Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
 1. Diseño e implementación del frontend
@@ -84,6 +86,8 @@ Autenticación y autorización
 
 Autenticación: Verificar la identidad de un usuario (por ejemplo, mediante usuario y contraseña).
 Autorización: Controlar qué acciones puede realizar un usuario según su rol o permisos. 
+<img width="409" height="272" alt="image" src="https://github.com/user-attachments/assets/5349bf2b-ee14-4b16-b1b9-93f3c6193f8d" />
+
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
 Copilot said: ¡Por supuesto! Aquí tienes una investigación clara
@@ -128,4 +132,6 @@ CI/CD (Integración Continua y Entrega/Despliegue Continuo) automatiza pruebas, 
 
 Documentación del proyecto
 La documentación describe cómo funciona la aplicación, cómo instalarla, configurarla, usarla y contribuir. Incluye el README.md, documentación de la API, diagramas de arquitectura y guías para desarrolladores y usuarios.
+<img width="232" height="122" alt="image" src="https://github.com/user-attachments/assets/b0760888-51e9-4f3d-a125-c39570f07cec" />
+
 
