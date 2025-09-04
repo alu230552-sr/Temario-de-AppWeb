@@ -42,20 +42,48 @@ Merge: Unir los cambios de una rama al código principal, integrando las nuevas 
 Pull requests: Solicitud para que otros revisen y aprueben los cambios antes de integrarlos al proyecto principal, facilitando la colaboración y revisión de código. 
 
 # Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
-1.-Diseño e implementación del frontend  
-Maquetación/Wireframe/Mockup  
-API  
-2.-Diseño e implementación del backend  
-Servidor  
+1. Diseño e implementación del frontend
+Maquetación/Wireframe/Mockup
+
+Maquetación: Proceso de organizar y estructurar los elementos visuales de una página web (textos, imágenes, botones) usando HTML y CSS.
+Wireframe: Esquema básico o boceto de una página web, mostrando la disposición de los elementos sin detalles de diseño.
+Mockup: Versión más detallada y visual del wireframe, mostrando colores, tipografías y aspecto final antes de programar.
+API (Interfaz de Programación de Aplicaciones)
+
+Conjunto de reglas y definiciones que permiten que dos aplicaciones se comuniquen entre sí, generalmente a través de peticiones HTTP (como REST o GraphQL).
+2. Diseño e implementación del backend
+Servidor
+
+Programa o máquina que recibe peticiones de los clientes y envía las respuestas correspondientes (por ejemplo, un servidor Node.js, Django, o Express).
 Manejo de peticiones y respuestas HTTP
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)  
-3.-Bases de datos  
- Modelado de datos y relaciones  
-ORM (Object Relational Mapping)  
-CRUD desde el backend  
-4.-Seguridad básica en aplicaciones web  
-Validación de formularios  
-Autenticación y autorización  
+
+Proceso donde el servidor recibe solicitudes (GET, POST, PUT, DELETE) y responde con datos o páginas, usando el protocolo HTTP.
+Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
+
+Los servidores suelen conectarse a una base de datos para guardar o recuperar información necesaria para la aplicación.
+3. Bases de datos
+Modelado de datos y relaciones
+
+Diseño de la estructura de datos y cómo se relacionan entre sí (tablas, llaves foráneas, colecciones, etc.).
+ORM (Object Relational Mapping)
+
+Herramientas que permiten interactuar con una base de datos usando código orientado a objetos en lugar de SQL directo (ej. Sequelize, SQLAlchemy, Mongoose).
+CRUD desde el backend
+
+Operaciones básicas que se pueden realizar sobre una base de datos:
+Create (Crear)
+Read (Leer)
+Update (Actualizar)
+Delete (Eliminar)
+Estas operaciones suelen estar disponibles a través de rutas o endpoints en el backend.
+4. Seguridad básica en aplicaciones web
+Validación de formularios
+
+Proceso de revisar que los datos introducidos por el usuario cumplen ciertos requisitos antes de ser procesados o guardados.
+Autenticación y autorización
+
+Autenticación: Verificar la identidad de un usuario (por ejemplo, mediante usuario y contraseña).
+Autorización: Controlar qué acciones puede realizar un usuario según su rol o permisos. 
 
 Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional  
 1. -Integración de frontend y backend  
