@@ -1,6 +1,6 @@
 # Temario-de-AppWeb
 # Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web.   
- 1. Introducción al desarrollo web 
+1. Introducción al desarrollo web 
 Historia y evolución del desarrollo web:
 El desarrollo web comenzó en la década de 1990 con la invención de la World Wide Web. Inicialmente, las páginas web eran simples documentos de texto con enlaces (HTML). Con el tiempo, evolucionaron incorporando imágenes, estilos (CSS), interactividad (JavaScript) y bases de datos. Actualmente, existen aplicaciones web complejas y dinámicas, como redes sociales, tiendas online y aplicaciones que funcionan casi como programas de escritorio.
 
@@ -41,7 +41,7 @@ Branching: Crear una rama (branch) para trabajar en una nueva funcionalidad o co
 Merge: Unir los cambios de una rama al código principal, integrando las nuevas funcionalidades o correcciones.
 Pull requests: Solicitud para que otros revisen y aprueben los cambios antes de integrarlos al proyecto principal, facilitando la colaboración y revisión de código. 
 
-Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
+# Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web  
 1.-Diseño e implementación del frontend  
 Maquetación/Wireframe/Mockup  
 API  
